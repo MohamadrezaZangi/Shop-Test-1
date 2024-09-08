@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Shop Training JS</p>
+    </header>
+    <main>
+      <div class="search">
+        <input id="search-word" type="text" class="text-input" placeholder="Search By Name..." />
+        <div class="price-search-area">
+          <input id="search-price" class="text-input" type="number" placeholder="Enter Price" />
+          <button id="search-btn">Go</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="CategoryBar">
+          <h5>Category:</h5>
+          <button id="BtnAll" class="filters active">All</button>
+          <button id="BtnTech" class="filters">Tech</button>
+          <button id="BtnHealth" class="filters">Health</button>
+          <button id="BtnCloth" class="filters">Cloth</button>
+        </div>
+
+        <div class="products">
+          <div class="product-items" data-category="tech">
+            <img src="./Image/iphone.png" alt="Iphone" />
+            <h3 class="caption">Iphone 14 Pro Max</h3>
+            <span class="product-price">130</span>
+          </div>
+
+          <div class="product-items" data-category="tech">
+            <img src="./Image/airpods.png" alt="airpods" />
+            <h3 class="caption">Airpods</h3>
+            <span class="product-price">80</span>
+          </div>
+
+          <div class="product-items" data-category="cloth">
+            <img src="./Image/bag.png" alt="bag" />
+            <h3 class="caption">Cool Bag</h3>
+            <span class="product-price">65</span>
+          </div>
+
+          <div class="product-items" data-category="health">
+            <img src="./Image/cream.png" alt="cream" />
+            <h3 class="caption">Sunshine Cream</h3>
+            <span class="product-price">21</span>
+          </div>
+
+          <div class="product-items" data-category="cloth">
+            <img src="./Image/jacket.png" alt="jacket" />
+            <h3 class="caption">Leather Jacket</h3>
+            <span class="product-price">700</span>
+          </div>
+
+          <div class="product-items" data-category="health">
+            <img src="./Image/shampoo.png" alt="shampoo" />
+            <h3 class="caption">Sehat Shampoo</h3>
+            <span class="product-price">21</span>
+          </div>
+
+          <div class="product-items" data-category="cloth">
+            <img src="./Image/shoes.png" alt="shoes" />
+            <h3 class="caption">Running Shoes</h3>
+            <span class="product-price">90</span>
+          </div>
+
+          <div class="product-items" data-category="">
+            <img src="./Image/vitamin.png" alt="vitamin" />
+            <h3 class="caption">Vitamin pils</h3>
+            <span class="product-price">12</span>
+          </div>
+
+          <div class="product-items" data-category="">
+            <img src="./Image/watch.png" alt="watch" />
+            <h3 class="caption">Swiss Watch</h3>
+            <span class="product-price">600</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
